@@ -1,0 +1,29 @@
+@mixin button-style {
+    background-color: yellow;
+    color: darkslategray;
+
+    &:hover {
+        background-color: green;
+        color: whitesmoke;
+    }
+}
+
+.button {
+    @include button-style();
+}
+
+@mixin change {
+    background-color: blue;
+    transition: background-color 3s;
+
+    &:hover {
+        background-color: red;
+    }
+}
+
+.colorChangingSquare {
+    width: 300px;
+    height: 300px;
+    margin: 20%;
+    @include change();
+}

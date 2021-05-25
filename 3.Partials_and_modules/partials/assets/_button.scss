@@ -1,0 +1,10 @@
+.button {
+    @import 'colors';
+    background-color: $button-color;
+    color: white;
+
+    &:hover {
+       background-color: $button-hover-color; 
+    }
+
+}

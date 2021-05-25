@@ -1,0 +1,9 @@
+.button {
+  background-color: pink;
+  color: white;
+}
+
+.button:hover {
+  background-color: violet;
+}
+/*# sourceMappingURL=style.css.map */
